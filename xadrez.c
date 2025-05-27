@@ -26,5 +26,28 @@ int main() {
     } while (k < 8);
     printf("\n");
 
+     // Simulação do movimento do Cavalo
+    printf("Movimento do Cavalo:\n");
+    printf("Iniciando o movimento em 'L' (2 casas para baixo e 1 para a esquerda):\n");
+    for (int passo_vertical = 0; passo_vertical < 2; passo_vertical++) {
+        printf("Baixo\n");
+    }
+    int passo_horizontal = 0;
+    while (passo_horizontal < 1) {
+        printf("Esquerda\n");
+        passo_horizontal++;
+    }
+    printf("\nMovimento do Cavalo (simulação passo a passo do 'L'):\n");
+    for (int i = 0; i < 1; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("Baixo\n");
+        }
+        int k = 0;
+        while (k < 1) {
+            printf("Esquerda\n");
+            k++;
+        }
+    }
+
     return 0;
 }
